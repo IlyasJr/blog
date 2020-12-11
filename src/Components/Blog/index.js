@@ -1,6 +1,6 @@
 import { Comment } from "../Comment";
+import { CommentList } from "../CommentList";
 import "./styles.css";
-
 
 export const Blog = () => {
   return (
@@ -22,9 +22,9 @@ export const Blog = () => {
         <button>Like</button>
         <button>Comment</button>
       </div>
-      
-          <Comment/>
-      
+
+      <Comment />
+      <CommentList />
     </div>
   );
 };
