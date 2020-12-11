@@ -1,13 +1,18 @@
 .comment-container {
-    display: flexbox;   
-    justify-content: start;
+    margin: 5px;
+    padding: 10px;
+    display: grid;
+    justify-content: end;
     align-items: center;
-    border:1px solid gray;
+    width: 100%;
 }
 
 .comment-buttons {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-   
+}
+
+.comment-input {
+    width: 100%;
 }

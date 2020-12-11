@@ -1,8 +1,12 @@
+import './styles.css'
+
 export const Comment = () => {
   return (
-    <div className='comment-container'>
-      <input type="textarea" placeholder="type yr comment" />
-      <div className='comment-buttons'>
+    <div className="comment-container">
+      <div className="comment-input">
+        <textarea placeholder="type yr comment" />
+      </div>
+      <div className="comment-buttons">
         <button> Submit</button>
         <button> Cancel</button>
       </div>
