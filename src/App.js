@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Blog } from "./Components/Blog";
-import { Main } from "./Layout/Main";
+import './App.css';
+import { Blog } from './Components/Blog';
 
 function App() {
   return (
