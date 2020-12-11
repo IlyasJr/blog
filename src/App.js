@@ -1,5 +1,6 @@
 import './App.css';
 import { Blog } from './Components/Blog';
+import { Main } from './Layout/Main'
 
 function App() {
   return (
