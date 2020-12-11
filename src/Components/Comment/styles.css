@@ -1,0 +1,13 @@
+.comment-container {
+    display: flexbox;   
+    justify-content: start;
+    align-items: center;
+    border:1px solid gray;
+}
+
+.comment-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
