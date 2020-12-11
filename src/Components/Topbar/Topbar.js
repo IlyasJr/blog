@@ -1,3 +1,4 @@
+import "./styles.css";
 import { Search } from "../Search";
 
 export const Topbar = () => {
@@ -5,7 +6,7 @@ export const Topbar = () => {
     <div className="topbar">
       <img src="si" alt="this is a topbar" />
       <Search />
-      <div className='buttons-container'>
+      <div className="buttons-container">
         <button>logout</button>
         <button>login</button>
         <button>register</button>

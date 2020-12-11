@@ -1,3 +1,4 @@
+import './styles.css'
 export const Search = () => {
     return (
         <div className = 'search-container'>

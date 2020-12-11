@@ -1,0 +1,5 @@
+.main-container {
+  display: grid;
+  justify-content: center;
+  padding: 60px;
+}
